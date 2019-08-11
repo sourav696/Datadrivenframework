@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DataDrivenFramework]">
+  <test thread-count="5" name="GoogleSearch(failed)">
+    <classes>
+      <class name="com.TCS.testCase.SearchInGoogle">
+        <methods>
+          <include name="searchGoogle"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.TCS.testCase.SearchInGoogle -->
+    </classes>
+  </test> <!-- GoogleSearch(failed) -->
+</suite> <!-- Failed suite [DataDrivenFramework] -->
